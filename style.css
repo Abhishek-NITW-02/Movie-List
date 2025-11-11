@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+.input-box{
+    margin: 1rem 0;
+}
+#clearBtn{
+    margin: 1rem 0;
+}
+
+#movie-input{
+    height: 2rem;
+    padding: 5px;
+    font-size: 17px;
+}
+#addMovie,#clearBtn{
+    height: 2rem;
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#clearBtn{
+    background-color: #333;
+}
+#movieList{
+    list-style: none;
+}
+.li-class{
+    padding: .6rem;
+    background-color: #dddd;
+    border-radius: 5px;
+}
+
+.mode{
+    height: 30px;
+    width: 70px;
+    border: 2px solid black;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
